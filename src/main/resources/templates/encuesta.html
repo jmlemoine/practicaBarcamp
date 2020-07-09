@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta</title>
+</head>
+<body>
+<form th:action="@{/encuesta}" method="post">
+
+    <h1>Encuesta</h1>
+
+    <br>
+
+    <div>
+        <h3>a) ¿Las charlas donde usted participó cumplieron con sus expectativas?</h3>
+        <div><input type="radio" id="1a" name="1" value="1a" checked><label for="1a">1</label></div>
+        <div><input type="radio" id="1b" name="1" value="1b"><label for="1b">2</label></div>
+        <div><input type="radio" id="1c" name="1" value="1c"><label for="1c">3</label></div>
+        <div><input type="radio" id="1d" name="1" value="1d"><label for="1d">4</label></div>
+        <div><input type="radio" id="1e" name="1" value="1e"><label for="1e">5</label></div>
+    </div>
+
+    <br>
+
+    <div>
+        <h3>b) ¿Los expositores mostraron tener dominio del tema?</h3>
+        <div><input type="radio" id="2a" name="2" value="2a" checked><label for="2a">1</label></div>
+        <div><input type="radio" id="2b" name="2" value="2b"><label for="2b">2</label></div>
+        <div><input type="radio" id="2c" name="2" value="2c"><label for="2c">3</label></div>
+        <div><input type="radio" id="2d" name="2" value="2d"><label for="2d">4</label></div>
+        <div><input type="radio" id="2e" name="2" value="2e"><label for="2e">5</label></div>
+    </div>
+
+    <br>
+
+    <div>
+        <h3>c) ¿Las instalaciones del evento fueron confortables para usted?</h3>
+        <div><input type="radio" id="3a" name="3" value="3a" checked><label for="3a">1</label></div>
+        <div><input type="radio" id="3b" name="3" value="3b"><label for="3b">2</label></div>
+        <div><input type="radio" id="3c" name="3" value="3c"><label for="3c">3</label></div>
+        <div><input type="radio" id="3d" name="3" value="3d"><label for="3d">4</label></div>
+        <div><input type="radio" id="3e" name="3" value="3e"><label for="3e">5</label></div>
+    </div>
+
+    <br>
+
+    <div>
+        <h3>d) ¿Tiene algún comentario para los organizadores? (Comentario)</h3>
+        <div><input type="radio" id="4a" name="4" value="4a" checked><label for="4a">1</label></div>
+        <div><input type="radio" id="4b" name="4" value="4b"><label for="4b">2</label></div>
+        <div><input type="radio" id="4c" name="4" value="4c"><label for="4c">3</label></div>
+        <div><input type="radio" id="4d" name="4" value="4d"><label for="4d">4</label></div>
+        <div><input type="radio" id="4e" name="4" value="4e"><label for="4e">5</label></div>
+    </div>
+    <br><br>
+
+</form>
+</body>
+</html>
